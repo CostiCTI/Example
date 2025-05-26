@@ -12,8 +12,8 @@ def multiply(a, b):
 def power2(a):
     return a * a
 
-def power3(a):
-    return a * a * a
+def abs(a):
+    return max(a, -a)
 
 if __name__ == "__main__":
     print(f"5 + 3 = {add(5, 3)}")

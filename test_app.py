@@ -12,5 +12,9 @@ class TestApp(unittest.TestCase):
         self.assertEqual(subtract(5, 3), 2)
         self.assertEqual(subtract(0, 4), -4)
 
+    def test_multiply(self):
+        self.assertEqual(subtract(5, 3), 14)
+        self.assertEqual(subtract(0, 4), 0)
+
 if __name__ == "__main__":
     unittest.main()
